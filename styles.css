@@ -1,0 +1,80 @@
+body {
+  background-image: url('https://silviahartmann.com/background-tile-art/images/black_woven_seamless_tile.jpg');
+  background-repeat: repeat;
+}
+
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+#searchBar {
+  display: block;
+}
+
+.pageTitle {
+  color: #999999;
+  margin-top: 10%;
+}
+
+.input-text {
+  font-size: 120%;
+  padding: 1%;
+  border: .1em solid #555555;
+  border-radius: .3em;
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+
+input.input-text:focus {
+  font-size: 120%;
+  outline: none;
+  background-color: black;
+  border: .1em solid #555555;
+  box-shadow: 0 0 10px white;
+  display: inline-block;
+}
+
+#cross {
+  text-align: left;
+  display: inline;
+  color: white;
+  cursor: pointer;
+  padding-top: 1%;
+}
+
+#cross:active {
+  color: black;
+  cursor: pointer;
+}
+
+#randomArticle {
+  color: #888888;
+}
+
+#randomArticle:hover {
+    color: white;
+}
+
+#randomArticle:link {
+  text-decoration: none;
+}
+#randomArticle:active {
+  text-decoration: none;
+}
+
+div #resultList {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+div .listItem {
+  background-color: black;
+  color: #aaaaaa;
+  padding: 1.5em;
+  border-left: .2em solid black;
+}
+
+div .listItem:hover {
+  border-left: .2em solid white;
+}
